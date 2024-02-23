@@ -1,6 +1,8 @@
 package org.hotel.backend.service;
 
 
+import org.hotel.backend.exceptionhandling.PasswordNotValidException;
+
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
