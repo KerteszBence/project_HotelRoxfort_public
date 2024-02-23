@@ -6,6 +6,8 @@ import org.hotel.backend.dto.HouseCreateCommand;
 import org.hotel.backend.dto.HouseInfo;
 import org.hotel.backend.dto.HouseInfoWithoutRoomList;
 import org.hotel.backend.dto.HouseUpdateCommand;
+import org.hotel.backend.exceptionhandling.DuplicateHouseException;
+import org.hotel.backend.exceptionhandling.HouseNotFoundException;
 import org.hotel.backend.repository.HouseRepository;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,6 +21,7 @@ import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
+import static org.hotel.backend.domain.RoomStatus.NOT_AVAILABLE;
 
 
 @Service

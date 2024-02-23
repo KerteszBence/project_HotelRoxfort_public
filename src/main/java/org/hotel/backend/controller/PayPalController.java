@@ -3,11 +3,13 @@ package org.hotel.backend.controller;
 
 
 import com.paypal.api.payments.Links;
-import com.paypal.api.payments.Order;
+//import com.paypal.api.payments.Order;
 import com.paypal.api.payments.Payment;
 import com.paypal.base.rest.PayPalRESTException;
 
 import lombok.extern.slf4j.Slf4j;
+import org.hotel.backend.dto.Order;
+import org.hotel.backend.service.PaypalService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;

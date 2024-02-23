@@ -17,7 +17,7 @@ import java.io.UnsupportedEncodingException;
 import java.time.LocalDate;
 import java.util.List;
 
-
+import static org.hotel.backend.service.PdfGeneratorService.createBillPdf;
 
 
 @Service

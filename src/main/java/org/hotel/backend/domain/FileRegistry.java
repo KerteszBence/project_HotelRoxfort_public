@@ -5,6 +5,7 @@ package org.hotel.backend.domain;
 import com.fasterxml.jackson.annotation.JsonFormat;
 
 import lombok.Data;
+import org.hotel.backend.dto.UploadResponse;
 import org.springframework.web.multipart.commons.CommonsMultipartFile;
 
 import javax.persistence.*;

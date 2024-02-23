@@ -5,6 +5,7 @@ import org.hotel.backend.domain.Extra;
 import org.hotel.backend.dto.ExtraCreateCommand;
 import org.hotel.backend.dto.ExtraInfo;
 import org.hotel.backend.dto.ExtraUpdateCommand;
+import org.hotel.backend.exceptionhandling.ExtraNotFoundException;
 import org.hotel.backend.repository.ExtraRepository;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;

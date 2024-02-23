@@ -2,6 +2,9 @@ package org.hotel.backend.service;
 
 
 import org.apache.commons.io.IOUtils;
+import org.hotel.backend.domain.FileRegistry;
+import org.hotel.backend.dto.FileResource;
+import org.hotel.backend.repository.UploadRepository;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.FileSystemResource;
